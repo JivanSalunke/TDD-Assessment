@@ -22,5 +22,7 @@ test("return sum of the integers when passes string of comma separated or line s
     expect(add("1\n2,3")).toBe(6);
     expect(add("1\n2,3\n4,5\n6,8")).toBe(29);
     expect(add("//;\n1;2")).toBe(3);
+    expect(add("//;\n1;2;3;4;5")).toBe(15);
+
 
 }); 
