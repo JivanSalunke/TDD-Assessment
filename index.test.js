@@ -14,4 +14,6 @@ test("return sum of the integers when passes string of comma separated or line s
     expect(add("1,2,18,20,55")).toBe(96);
     expect(add("10,20,30,40,50,60,70,80,90,100,200,300,400,500")).toBe(1950);
     expect(add("1\n2,3")).toBe(6);
+    expect(add("1\n2,3\n4,5\n6,8")).toBe(29);
+
 }); 
